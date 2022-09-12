@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { QueryClient, QueryClientProvider } from "react-query";
+import Market from "./pages/Market";
+
+const queryClient = new QueryClient();
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <div className="App">
-      <p>Hello world</p>
-    </div>
-  )
+    <QueryClientProvider client={queryClient}>
+      <Market />
+    </QueryClientProvider>
+  );
 }
 
-export default App
+export default App;
