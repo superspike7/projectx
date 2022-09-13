@@ -19,7 +19,7 @@ REST API fetching Using CoinGecko
 Clone and install ProjectX with yarn
 
 ```bash
-  git clone 
+  git clone https://github.com/superspike7/projectx.git
   cd projectx 
   yarn install
 ```
