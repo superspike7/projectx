@@ -13,7 +13,7 @@ function Table({ coins }) {
         </thead>
         <tbody>
           {coins.map((coin) => (
-            <tr>
+            <tr key={coin.id}>
               <td>{coin.market_cap_rank}</td>
               <td>
                 <div className="flex items-center space-x-3">
@@ -27,7 +27,9 @@ function Table({ coins }) {
                   </div>
                   <div className="">
                     <div className="font-bold">{coin.name}</div>
-                    <div className="text-sm opacity-50">{coin.symbol}</div>
+                    <div className="text-sm opacity-50 uppercase">
+                      {coin.symbol}
+                    </div>
                   </div>
                 </div>
               </td>
@@ -39,15 +41,6 @@ function Table({ coins }) {
             </tr>
           ))}
         </tbody>
-        <tfoot>
-          <tr>
-            <th className="text-center"></th>
-            <th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-          </tr>
-        </tfoot>
       </table>
     </div>
   );
