@@ -3,8 +3,7 @@
 REST API fetching Using CoinGecko
 
 ## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Screenshot 2022-09-13 at 09-06-33 Projectx](https://user-images.githubusercontent.com/65844337/189785229-5f0c6064-2500-49b5-9b9c-45839d20d8b1.png)
 
 
 ## Tech Stack
