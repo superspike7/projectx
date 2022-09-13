@@ -18,10 +18,10 @@ function Market() {
   if (error) return "An error has occurred: " + error.message;
 
   return (
-    <div className="container mx-auto py-8">
-      <div>
-        <h2>Market</h2>
-        <p>Powered by coingecko</p>
+    <div className="container mx-auto py-8 ">
+      <div className="flex justify-between py-2">
+        <h2 className="text-2xl">Coins Market</h2>
+        <p>Powered by <a class="text-blue-500 hover:underline" href="https://www.coingecko.com/en/api">Coin Gecko API</a></p>
       </div>
       <Table coins={data} />
     </div>

@@ -1,33 +1,3 @@
-const coin = {
-  "id": "bitcoin",
-  "symbol": "btc",
-  "name": "Bitcoin",
-  "image":
-    "https://assets.coingecko.com/coins/images/1/large/bitcoin.png?1547033579",
-  "current_price": 22388,
-  "market_cap": 427930253873,
-  "market_cap_rank": 1,
-  "fully_diluted_valuation": 469291923252,
-  "total_volume": 44154688847,
-  "high_24h": 22448,
-  "low_24h": 21578,
-  "price_change_24h": 766.39,
-  "price_change_percentage_24h": 3.54464,
-  "market_cap_change_24h": 13428296934,
-  "market_cap_change_percentage_24h": 3.23962,
-  "circulating_supply": 19149137,
-  "total_supply": 21000000,
-  "max_supply": 21000000,
-  "ath": 69045,
-  "ath_change_percentage": -67.69257,
-  "ath_date": "2021-11-10T14:24:11.849Z",
-  "atl": 67.81,
-  "atl_change_percentage": 32796.2049,
-  "atl_date": "2013-07-06T00:00:00.000Z",
-  "roi": null,
-  "last_updated": "2022-09-12T23:18:59.006Z",
-};
-
 function Table({ coins }) {
   return (
     <div className="overflow-x-auto w-full">
